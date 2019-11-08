@@ -9,7 +9,7 @@ Prediction of physicians for patient diagnosis using DM techniques
 
 [Bharat Sharma](https://github.com/GENU05)
 
-Bharath Simha
+[Bharath Simha](https://github.com/bharathred)
 
 [D. Praneetha](https://github.com/Shira98)
 
