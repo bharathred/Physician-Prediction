@@ -1,7 +1,8 @@
 # Models
 
-This code consists of the creation and testing of predictive models used for the **first phase** of the project. Both the **Logistic Regression** and **Random Forest** models are implemented in a *One vs Rest* manner. 
-Used the python library *sklearn* for implementation - 
+This code consists of the creation and testing of predictive models used for the **first phase** of the project on the data: *dataset_with_values_v_3*. Both the **Logistic Regression** and **Random Forest** models are implemented in a *One vs Rest* manner. 
+
+The python library *sklearn* is used for implementation - 
 
 ```from sklearn.linear_model import LogisticRegression```
 
