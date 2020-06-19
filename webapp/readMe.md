@@ -1,7 +1,8 @@
 ## Running the web application
-#In Linux
 
-Terminal:
+**In Linux**
+
+*Terminal:*
 > $ export FLASK_APP=./app.py
 
 
@@ -9,10 +10,10 @@ Terminal:
 
 Then open http://127.0.0.1:5000/ in web browser.
 
-#In Windows
+**In Windows**
 
-Command Prompt:
+*Command Prompt:*
 > set FLASK_APP=app.py
 
-Power shell:
+*Power shell:*
 > $env:FLASK_APP = "app.py"
