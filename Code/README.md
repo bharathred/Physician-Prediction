@@ -24,14 +24,14 @@ The python library *sklearn* is used for implementation -
 
 These models output a list of type of doctors (pediatrician, psychiatrist, etc.) and their probabilities to diagnose a patient (test case). Both the models are stored in a pickle file for further usage.
 
-### Scraping/ -
+### Scraping/ 
 This folder contains logic for scraping Practo data, and saving it in a .csv file for further usage. 
  
-### WebApp/ -
+### WebApp/ 
 This folder contains code for the web user interface built using **Flask**, which gives users access to the final output of phase 2 of the project.
 
 ## Running the Project 
-### Generating data for running the web interface
+### Generating data for running the web interface -
 For the code in *Model/*, execute *predictive_models.ipynb* in any python notebook and modify the google drive paths as needed.
  
 Now, run *profile_scraper.py*, and it’ll save doctors’ profile in doctors.csv. You can change user’s location in *line 7* of code. Doctors’ data needed is compiled from [Practo](https://www.practo.com/) 
@@ -44,7 +44,7 @@ Classes in HTML pages of [Practo](https://www.practo.com/) may change. So, corre
 *comments_scraper.py* takes doctors.csv as input and output the comments extracted from particular doctor’s profile and saves it in comments/doctorname.txt format.
 >$ python comments_scraper.py
 
-### Running the web application
+### Running the web application -
 **In Linux**
 
 *Terminal:*
