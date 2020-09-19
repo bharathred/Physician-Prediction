@@ -48,7 +48,7 @@ def sol(page):
 
 def main():
     for i in range(1,900):
-        print('<=======Scrapping page ',i,'========>')
+        print('<=======Scraping page ',i,'========>')
         sol(i) 
         
 
