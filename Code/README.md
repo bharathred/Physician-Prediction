@@ -12,7 +12,7 @@ These specialists are ranked using sentimental analysis on the reviews from the 
 
 [Data Set](https://health.data.ny.gov/api/views/rmwa-zns4/rows.csv?accessType=DOWNLOAD)
 
-# Project Folder Structure - 
+# Project Folder Structure 
 ## Model/
 The code in this folder consists of the creation and testing of predictive models used for the **first phase** of the project on the data: *dataset_with_values_v_3*. Both the **Logistic Regression** and **Random Forest** models are implemented in a *One vs Rest* manner. 
 
@@ -30,7 +30,7 @@ This folder contains logic for scraping Practo data, and saving it in a .csv fil
 ## WebApp/ -
 This folder contains code for the web user interface built using **Flask**, which gives users access to the final output of phase 2 of the project.
 
-# Running the Project -
+# Running the Project 
 ## Generating data for running the web interface
 For the code in *Model/*, execute *predictive_models.ipynb* in any python notebook and modify the google drive paths as needed.
  
@@ -62,7 +62,7 @@ Classes in HTML pages of [Practo](https://www.practo.com/) may change. So, corre
 
 Then, open http://127.0.0.1:5000/ in web browser, input the details like, *age*, *symptoms*, etc. and check the results displayed.
 
-# Project Team -
+## Project Team -
 
 [Bharat Sharma](https://github.com/GENU05)
 
@@ -70,6 +70,6 @@ Then, open http://127.0.0.1:5000/ in web browser, input the details like, *age*,
 
 [D. Praneetha](https://github.com/Shira98)
 
-# Major Project Under the Guidance of -
+## Major Project Under the Guidance of -
 
 [Ananthanarayana V. S.](http://infotech.nitk.ac.in/faculty/ananthanarayana-v-s) 
