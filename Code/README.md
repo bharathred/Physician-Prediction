@@ -10,7 +10,7 @@ picked.
 Integration with Practo is done. For each physician, the top five specialists in each field in the nearby location from Practo’s user are identified. These specialists are filtered through web scraping on Practo.
 These specialists are ranked using sentimental analysis on the reviews from the patients who previously visited them. Then the construction of a basic user interface to suggest select Practo specialists based on the results is done.
 
-The base dataset used can be found [here](https://health.data.ny.gov/api/views/rmwa-zns4/rows.csv?accessType=DOWNLOAD)
+The base dataset used can be found [here](https://health.data.ny.gov/api/views/rmwa-zns4/rows.csv?accessType=DOWNLOAD).
 
 ## Project Folder Structure 
 ### Model/
